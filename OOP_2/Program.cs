@@ -10,6 +10,12 @@ namespace OOP_2
     {
         static void Main(string[] args)
         {
+            Car car = new Car();
+            car.GetInfo();
+            car.age = 50;
+            car.marka = "BMW";
+            car.GetInfo();
+            Console.ReadLine();
         }
     }
 }
