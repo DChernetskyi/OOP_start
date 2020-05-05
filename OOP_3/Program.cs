@@ -15,6 +15,8 @@ namespace OOP_3
             Door door = new Door(240);
             
             House house = new House(window, door, 200000);
+            house.door.Get_h();
+            
             house.Get_Info();
             Console.ReadLine();
 
