@@ -10,10 +10,12 @@ namespace OOP_2
     {
         public string marka;
         public int age;
-        public Car() { marka = "audi"; age = 7; }
+        public Motor motor;
+        
+        public Car(string markaAvto,int ageAvto, Motor motor_obg) { marka = markaAvto; age = ageAvto; motor = motor_obg; }
         public void GetInfo()
         {
-            Console.WriteLine($"марка: {marka}, возраст: {age}");
+            Console.WriteLine($"марка: {marka}, возраст: {age}, мотор: {motor.type}");
         }
     }
 }
