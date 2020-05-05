@@ -10,7 +10,12 @@ namespace start_oop
     {
         static void Main(string[] args)
         {
-
+            Cat cat = new Cat();
+            cat.name = "Monika";
+            cat.GetInfo();
+            cat.name = "Barsik";
+            cat.GetInfo();
+            Console.ReadLine();
         }
     }
 }
