@@ -13,6 +13,7 @@ namespace Inheritance
             //Skoda skoda = new Skoda();
             Fabia fabia = new Fabia(1200,4);
             fabia.GetInfo();
+            fabia.PostavitKoleso();
             Console.ReadLine();
         }
     }

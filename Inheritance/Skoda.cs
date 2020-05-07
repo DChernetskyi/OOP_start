@@ -11,5 +11,9 @@ namespace Inheritance
         
         public int Koleso { get; set; }
         public Skoda(int kol) { Koleso = kol; }
+        public void PostavitKoleso()
+        {
+            Console.WriteLine("koleso ustanovleno");
+        }
     }
 }
