@@ -17,7 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorphism_pereopredeleni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generalization", "Generalization\Generalization.csproj", "{C9350342-9BD6-4D72-A1EA-65962441DF56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{CE718F21-75D8-44E3-A3F5-971F9CD92AF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Interface.csproj", "{CE718F21-75D8-44E3-A3F5-971F9CD92AF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface2", "Interface2\Interface2.csproj", "{DD332F85-F375-4CD5-9C48-D0A21B06B7F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{CE718F21-75D8-44E3-A3F5-971F9CD92AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE718F21-75D8-44E3-A3F5-971F9CD92AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE718F21-75D8-44E3-A3F5-971F9CD92AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD332F85-F375-4CD5-9C48-D0A21B06B7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD332F85-F375-4CD5-9C48-D0A21B06B7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD332F85-F375-4CD5-9C48-D0A21B06B7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD332F85-F375-4CD5-9C48-D0A21B06B7F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
