@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generalization", "Generaliz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Interface.csproj", "{CE718F21-75D8-44E3-A3F5-971F9CD92AF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface2", "Interface2\Interface2.csproj", "{DD332F85-F375-4CD5-9C48-D0A21B06B7F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Purse", "Interface2\Purse.csproj", "{DD332F85-F375-4CD5-9C48-D0A21B06B7F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

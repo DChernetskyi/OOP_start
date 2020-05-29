@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Interface2
+namespace Purse
 {
     class Account_Balanse
     {
