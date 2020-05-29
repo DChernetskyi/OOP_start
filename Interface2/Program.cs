@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Interface2
+namespace Purse
 {
     class Program
     {
