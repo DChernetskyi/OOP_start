@@ -26,19 +26,6 @@ namespace Bot_Badoo
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Browser = new OpenQA.Selenium.Chrome.ChromeDriver();
-            Browser.Manage().Window.Maximize();
-            Browser.Navigate().GoToUrl("http://badoo.com/signin/?f=top");
-
-            IWebElement searchInputLogin = Browser.FindElement(By.Name("email"));
-            searchInputLogin.SendKeys(Convert.ToString(textBox1.Text));
-            IWebElement searchInputPass = Browser.FindElement(By.Name("password"));
-            searchInputPass.SendKeys(Convert.ToString(textBox2.Text) + OpenQA.Selenium.Keys.Enter);
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             Browser.Quit();
@@ -68,6 +55,18 @@ namespace Bot_Badoo
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Browser = new OpenQA.Selenium.Chrome.ChromeDriver();
+            Browser.Manage().Window.Maximize();
+            Browser.Navigate().GoToUrl("http://badoo.com/signin/?f=top");
+
+            IWebElement searchInputLogin = Browser.FindElement(By.Name("email"));
+            searchInputLogin.SendKeys(Convert.ToString(textBox1.Text));
+            IWebElement searchInputPass = Browser.FindElement(By.Name("password"));
+            searchInputPass.SendKeys(Convert.ToString(textBox2.Text) + OpenQA.Selenium.Keys.Enter);
         }
     }
 }
