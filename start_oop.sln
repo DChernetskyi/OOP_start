@@ -21,6 +21,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "Interface\Inte
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Purse", "Interface2\Purse.csproj", "{DD332F85-F375-4CD5-9C48-D0A21B06B7F0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bot_Badoo", "Bot_Badoo\Bot_Badoo.csproj", "{08F103D4-C412-4AFD-9CE7-C975A26552BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bot2_proj", "..\..\..\Downloads\bot2\bot2\bot2\bot2_proj\bot2_proj.csproj", "{8F035179-6B42-4197-9E84-4D6038B87B0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{DD332F85-F375-4CD5-9C48-D0A21B06B7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD332F85-F375-4CD5-9C48-D0A21B06B7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD332F85-F375-4CD5-9C48-D0A21B06B7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F103D4-C412-4AFD-9CE7-C975A26552BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F103D4-C412-4AFD-9CE7-C975A26552BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F103D4-C412-4AFD-9CE7-C975A26552BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F103D4-C412-4AFD-9CE7-C975A26552BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F035179-6B42-4197-9E84-4D6038B87B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F035179-6B42-4197-9E84-4D6038B87B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F035179-6B42-4197-9E84-4D6038B87B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F035179-6B42-4197-9E84-4D6038B87B0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

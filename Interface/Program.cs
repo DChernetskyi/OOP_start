@@ -16,7 +16,7 @@ namespace Interface
                 switchable.On();
             }
 
-                       
+
             Console.ReadLine();
 
         }
