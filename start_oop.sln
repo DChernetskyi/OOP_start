@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bot_Badoo", "Bot_Badoo\Bot_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bot2_proj", "..\..\..\Downloads\bot2\bot2\bot2\bot2_proj\bot2_proj.csproj", "{8F035179-6B42-4197-9E84-4D6038B87B0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{61BBDBC9-50CC-46B8-83FF-66066ADCD194}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{8F035179-6B42-4197-9E84-4D6038B87B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F035179-6B42-4197-9E84-4D6038B87B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F035179-6B42-4197-9E84-4D6038B87B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BBDBC9-50CC-46B8-83FF-66066ADCD194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BBDBC9-50CC-46B8-83FF-66066ADCD194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BBDBC9-50CC-46B8-83FF-66066ADCD194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BBDBC9-50CC-46B8-83FF-66066ADCD194}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

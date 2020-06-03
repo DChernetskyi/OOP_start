@@ -42,7 +42,7 @@ namespace Bot_Badoo
         {
             for (int i = 0; i < Convert.ToInt32(textBox3.Text); i++)
             {
-                IWebElement buttonLike = Browser.FindElement(By.CssSelector(".encounters-actions_item.encounters-actions_item--yes"));
+                IWebElement buttonLike = Browser.FindElement(By.CssSelector(".encounters-actions__item.encounters-actions__item--yes"));
 
                 buttonLike.Click();
                 await Task.Delay(3000);
@@ -67,6 +67,11 @@ namespace Bot_Badoo
             searchInputLogin.SendKeys(Convert.ToString(textBox1.Text));
             IWebElement searchInputPass = Browser.FindElement(By.Name("password"));
             searchInputPass.SendKeys(Convert.ToString(textBox2.Text) + OpenQA.Selenium.Keys.Enter);
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
